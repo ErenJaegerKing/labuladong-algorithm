@@ -1,5 +1,6 @@
 package org.example.basisStructure.dynamicArray;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.NoSuchElementException;
 
@@ -173,6 +174,7 @@ public class MyArrayList<E> {
     public static void main(String[] args) {
         // 初始容量设置为 3
         MyArrayList<Integer> arr = new MyArrayList<>(3);
+        ArrayList ar = new ArrayList<>();
 
         // 添加 5 个元素
         for (int i = 1; i <= 5; i++) {
