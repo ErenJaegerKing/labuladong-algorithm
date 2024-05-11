@@ -1,4 +1,4 @@
-package org.example.basisStructure.dynamicArray;
+package org.example.basisStructure.linkedList;
 
 /**
  * @Author: erenjaeger
